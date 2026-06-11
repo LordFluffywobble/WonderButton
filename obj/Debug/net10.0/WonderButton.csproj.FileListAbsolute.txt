@@ -1,0 +1,14 @@
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\bin\Debug\net10.0\WonderButton.exe
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\bin\Debug\net10.0\WonderButton.deps.json
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\bin\Debug\net10.0\WonderButton.runtimeconfig.json
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\bin\Debug\net10.0\WonderButton.dll
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\bin\Debug\net10.0\WonderButton.pdb
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\WonderButton.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\WonderButton.AssemblyInfoInputs.cache
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\WonderButton.AssemblyInfo.cs
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\WonderButton.csproj.CoreCompileInputs.cache
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\WonderButton.dll
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\refint\WonderButton.dll
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\WonderButton.pdb
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\WonderButton.genruntimeconfig.cache
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\ref\WonderButton.dll
