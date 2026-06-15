@@ -12,3 +12,4 @@ C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\refin
 C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\WonderButton.pdb
 C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\WonderButton.genruntimeconfig.cache
 C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\ref\WonderButton.dll
+C:\Users\bonym\Documents\Pkurs\Intermediate\WonderButton\obj\Debug\net10.0\WonderButton.sourcelink.json

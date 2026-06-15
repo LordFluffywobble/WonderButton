@@ -1,5 +1,4 @@
-using System.Runtime.Serialization;
-using System.Threading.Tasks.Dataflow;
+using WonderButton.Interfaces;
 
 namespace WonderButton.Classes;
 
@@ -14,21 +13,28 @@ public class WonderActions
         TimeSpan            lunchCWindow        = new(12, 00, 00);
         TimeSpan            turnOnLights        = new(08, 00, 00);
         TimeSpan            turnOffLights       = new(15, 00, 00);
-        Console.WriteLine($"The time is: {time}"                );
-
-        bool lightsOn       = time.TimeOfDay >= turnOnLights && time.TimeOfDay <= turnOffLights;
-        bool isLunch        = time.TimeOfDay >= lunchSWindow && time.TimeOfDay <= lunchCWindow;
         
-        stringMessage.Message = "Ordering food for ";
-        intMessage.Message = 10;
+        Console.WriteLine($"The time is: {time}");
+
+        bool lightsOn                   = time.TimeOfDay >= turnOnLights && time.TimeOfDay <= turnOffLights;
+        bool isLunch                    = time.TimeOfDay >= lunchSWindow && time.TimeOfDay <= lunchCWindow;
+        
+        stringMessage.Message           = "Ordering food for ";
+        intMessage.Message              = 10;
 
 
         if      (lightsOn)              { Console.WriteLine("Turning on the Lights" ); }
         else                            { Console.WriteLine("Turning off the lights"); }
         
-        if      (isLunch & lightsOn)    { Console.WriteLine($"{stringMessage.Message} {intMessage.Message} people"); }
+        if      (isLunch && lightsOn)   { Console.WriteLine($"{stringMessage.Message} {intMessage.Message} people"); }
+        
+    }  
 
-        Console.WriteLine   ( $"{lightsOn}" );
-        // stringMessage.showMessage();
-    }   
 }
+internal class ButtonPushed : IPushButton
+{
+    public ConsoleKey PushButton()          //Using ConsoleKey as specified in the IPushButton interface
+    {
+        return Console.ReadKey(true).Key;   //Returns the pressed Key
+    }
+} 
